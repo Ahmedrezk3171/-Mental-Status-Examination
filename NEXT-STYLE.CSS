@@ -1,0 +1,127 @@
+/* ✅ إعداد عام */
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* ✅ الحاوية الرئيسية */
+.container {
+  max-width: 850px;
+  margin: auto;
+  padding: 25px;
+}
+
+/* ✅ العنوان */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #0d47a1;
+}
+
+.header h2 {
+  font-size: 18px;
+  color: #546e7a;
+  margin-top: 10px;
+}
+
+/* ✅ الأقسام */
+.section {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+}
+
+.section:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1565c0;
+  border-bottom: 2px solid #bbdefb;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+/* ✅ الأسئلة */
+.question-card {
+  margin-bottom: 25px;
+}
+
+.question-label {
+  font-size: 17px;
+  color: #37474f;
+  margin-bottom: 10px;
+}
+
+/* ✅ الإدخالات */
+.text-input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #cfd8dc;
+  border-radius: 10px;
+  background-color: #fafafa;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+}
+
+.text-input:focus {
+  border-color: #42a5f5;
+  box-shadow: 0 0 6px rgba(66, 165, 245, 0.4);
+  outline: none;
+}
+
+/* ✅ الأزرار */
+.buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.action-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.action-button:hover {
+  background-color: #0d47a1;
+  transform: translateY(-2px);
+}
+
+.action-button.next {
+  background-color: #43a047;
+}
+
+.action-button.next:hover {
+  background-color: #2e7d32;
+}
+
+/* ✅ رسالة أو ملاحظات */
+.result-box {
+  background-color: #fff8e1;
+  border: 1px solid #fdd835;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: #f57f17;
+  font-size: 16px;
+}

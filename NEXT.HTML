@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الصفحة التالية - فحص الحالة النفسية</title>
+  <link rel="stylesheet" href="next-style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>المكونات الأساسية لفحص الحالة النفسية</h1>
+      <h2>Components of the Mental Status Examination</h2>
+    </div><!-- ✅ قسم التوجه - أسئلة للمريض -->
+<div class="section">
+  <div class="section-title">التوجه ـ أسئلة محتملة للمريض:</div>
+
+  <div class="question-card">
+    <div class="question-label">ما اسمك بالكامل؟</div>
+    <input type="text" name="full_name" class="text-input" placeholder="اكتب هنا...">
+  </div>
+
+  <div class="question-card">
+    <div class="question-label">أين نحن (الطابق، المبنى، المدينة، المقاطعة، الولاية)؟</div>
+    <input type="text" name="location" class="text-input" placeholder="اكتب هنا...">
+  </div>
+
+  <div class="question-card">
+    <div class="question-label">ما هو تاريخ اليوم بالكامل (التاريخ، اليوم، الشهر، السنة، الموسم من العام)؟</div>
+    <input type="text" name="full_date" class="text-input" placeholder="اكتب هنا...">
+  </div>
+
+  <div class="question-card">
+    <div class="question-label">كيف تصف الموقف الذي نحن فيه الآن؟</div>
+    <input type="text" name="situation_description" class="text-input" placeholder="اكتب هنا...">
+  </div>
+</div>
+
+<!-- ✅ الأزرار -->
+<div class="buttons">
+  <button class="action-button next" onclick="goToFinishPage()">إنهاء</button>
+</div>
+
+  </div>  <!-- ✅ JavaScript -->  <script>
+    function goToFinishPage() {
+      window.location.href = "finish.html";
+    }
+  </script></body>
+</html>
